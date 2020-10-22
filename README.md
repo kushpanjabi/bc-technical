@@ -1,9 +1,12 @@
-To run full stack app: 
+## Quick start for this full stack app: 
 
- 1) Npm install in client and server directories
+ 1) npm install in the client and server folders
 
- 2) cd client && npm start
+ 2) npm start in server, and then client folder.
 
- 3) cd server && npm start
+## App
+This is a full stack application with an API server created with Node/Express, and a front end built with React.
 
- That's it! 
+Currently, you can search 4 fruits: Apple, Banana, Peach, Orange. 
+
+ That's it!

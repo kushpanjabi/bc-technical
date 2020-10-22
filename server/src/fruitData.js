@@ -21,7 +21,7 @@ const fruits = [
     },
     {
         name: 'Jackfruit',
-        weight: 200,
+        weight: 4553,
         image: 'https://storage.googleapis.com/afs-prod/media/d6a226dcd2f744108895f82bc862cb74/3000.jpeg'
     },
 ]

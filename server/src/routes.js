@@ -10,7 +10,7 @@ router.get('/:id', (req, res) => {
     const { id } = req.params;
 
     const foundFruit = Fruits.find(
-        (fruit) => fruit.name === id.toLowerCase()
+        (fruit) => fruit.name.toLowerCase() === id.toLowerCase()
     );
 
     if (foundFruit) {

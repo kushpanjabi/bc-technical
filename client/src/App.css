@@ -28,6 +28,37 @@
   color: #61dafb;
 }
 
+.card {
+  margin: 5%;
+}
+
+.search-bar {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.fruit-img-container {
+  display: flex;
+  justify-content: center;
+  height: 75%;
+}
+
+.weight {
+  margin-top: 10%;
+}
+
+.error-message {
+  font-size: 20px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

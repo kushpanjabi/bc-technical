@@ -2,7 +2,7 @@
 
  1) npm install in the client and server folders
 
- 2) npm start in server, and then client folder.
+ 2) npm start in server, and then npm start in client folder.
 
 ## App
 This is a full stack application with an API server created with Node/Express, and a front end built with React.

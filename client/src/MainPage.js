@@ -27,7 +27,6 @@ class MainPage extends Component {
                     submitted: true,
                     error: null
                 });
-                console.log(jsondata);
             })
             .catch((error) => {
                 this.setState({
@@ -49,7 +48,7 @@ class MainPage extends Component {
 
                 <div className="search-bar">
                     <Search
-                        placeholder="Enter a fruit (apple, peach, orange, banana)"
+                        placeholder="Enter a fruit (apple, peach, orange, banana, or jackfruit)"
                         enterButton="Search"
                         size="medium"
                         onSearch={query => this.getFruit(query)} />

@@ -8,3 +8,6 @@
 This is a full stack application with an API server created with Node/Express, and a front end built with React.
 
 Currently, you can search 5 fruits: Apple, Banana, Peach, Orange, and Jackfruit. 
+
+## Preview
+![gif of app](./media/FruitAPI.gif)

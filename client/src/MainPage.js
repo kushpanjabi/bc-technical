@@ -54,11 +54,12 @@ class MainPage extends Component {
                         onSearch={query => this.getFruit(query)} />
                 </div>
 
-                {submitted && error ? (
-                    <div className="not-found">
-                        <span className="error-message">Not found! Please search again.</span>
-                    </div>
-                ) : (
+                {submitted && error ?
+                    (
+                        <div className="not-found">
+                            <span className="error-message">Not found! Please search again.</span>
+                        </div>
+                    ) : (
                         <div className="card-container">
                             {fruitData.map((desc) => {
                                 return (
